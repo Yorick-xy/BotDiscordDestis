@@ -1,4 +1,4 @@
-# Bot Discord CVE
+# Bot Discord CVE Cyber
 
 Un bot Discord conçu pour gérer et afficher des informations sur les CVE (Common Vulnerabilities and Exposures) en temps réel. Ce bot utilise l'API de Discord pour interagir avec les utilisateurs et fournir des informations détaillées sur les vulnérabilités.
 
@@ -8,7 +8,7 @@ Un bot Discord conçu pour gérer et afficher des informations sur les CVE (Comm
 - **Commandes personnalisées** : Ajoute la possibilité d'étendre les fonctionnalités avec de nouvelles commandes.
 - **Gestion des variables d'environnement** : Utilisation de `python-dotenv` pour la gestion des clés API et autres informations sensibles.
 - **Interface utilisateur** : Utilisation de `discord.py` pour l'affichage des informations dans Discord avec des messages enrichis (embeds).
-- ***Voici une liste des commandes disponibles :*** :
+- ***Voici une liste des commandes disponibles*** :
     - 🏓 !ping - Teste la latence du bot
     - 📊 !status - Affiche le statut du bot
     - ⏰ !reminder [temps en minutes] [message] - Définit un rappel
@@ -24,8 +24,9 @@ Un bot Discord conçu pour gérer et afficher des informations sur les CVE (Comm
 - Un bot Discord et un token valide
 - Un environnement virtuel Python (recommandé)
 - Dans Discord, activez le mode Développeur dans "Paramètres -> Avancés"
-- Creer un bot dans https://discord.com/developers/applications et générez le TOKEN dans "Bot"
+- Creer un bot dans https://discord.com/developers/applications et générez le TOKEN dans l'onglet "Bot"
 - Le CHANNEL_ID est votre ID de votre salon du serveur Discord "Clic droit sur le salon => copier l'identifiant du salon"
+- Le TOKEN et CHANNEL_ID se mettent dans .env
 
 ## Installation
 
