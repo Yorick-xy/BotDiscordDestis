@@ -36,4 +36,6 @@ Un bot Discord conçu pour gérer et afficher des informations sur les CVE (Comm
 ```bash
 git clone https://github.com/Yorick-xy/BotDiscordDestis.git
 
-# BotDiscordDestis
+![alt text](img/news.png)
+![alt text](img/cve.png.png)
+![alt text](img/joke.png)
