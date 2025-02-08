@@ -25,7 +25,7 @@ Il peut aussi faire des blagues, on peut entièrement les modifier depuis bot/co
 
 - ✅ Python 3.8 ou plus récent
 - ✅ Un bot Discord et un token valide
-- ✅ Un environnement virtuel Python (recommandé)
+- ✅ Un environnement virtuel Python (recommandé), il faut bien activer son environnement virtuel et choisir le même interpréteur.
 - ✅ Activer le mode Développeur dans Discord :
   - Aller dans **Paramètres** > **Avancés** > **Mode Développeur**
 - ✅ Créer une application bot sur **[Discord Developer Portal](https://discord.com/developers/applications)**

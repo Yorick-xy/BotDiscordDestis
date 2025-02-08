@@ -1,16 +1,26 @@
+from dotenv import load_dotenv
+from discord.ext import tasks
 import discord
 import requests
 import os
-from discord.ext import tasks
-from dotenv import load_dotenv
 
-# Charger les variables d'environnement depuis .env
-load_dotenv()
+
+# Spécifier un chemin relatif vers .env dans un sous-répertoire
+dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+load_dotenv(dotenv_path=dotenv_path)
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
+CHANNEL_ID = os.getenv("CHANNEL_ID")
 
 API_URL_CVE = "https://services.nvd.nist.gov/rest/json/cves/2.0"
+
+if CHANNEL_ID is not None:
+    try:
+        CHANNEL_ID = int(CHANNEL_ID)
+    except ValueError:
+        print(f"Erreur de conversion pour CHANNEL_ID : {CHANNEL_ID}")
+else:
+    print("CHANNEL_ID est None, vérifie ton fichier .env")
 
 class CVEView(discord.ui.View):
     def __init__(self, cve_data):
