@@ -1,6 +1,7 @@
 # Bot Discord CVE - Vulnérabilités et Cybersécurité
 
 Un bot Discord conçu pour gérer et afficher des informations sur les CVE (Common Vulnerabilities and Exposures) en temps réel. Ce bot utilise l'API de Discord pour interagir avec les utilisateurs et fournir des informations détaillées sur les vulnérabilités.
+Il peut aussi faire des blagues, on peut entièrement les modifier depuis bot/commandes.py
 
 ## Fonctionnalités
 
