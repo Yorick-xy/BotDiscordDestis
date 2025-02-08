@@ -23,6 +23,13 @@ Il peut aussi faire des blagues, on peut entièrement les modifier depuis bot/co
 
 ## Prérequis
 
+***Les sections importantes à utiliser:***
+ - `main.py`
+ - `bot/cve_view.py`
+ - `bot/commands.py`
+ - `bot/reminders.py`
+ - `.env`
+ ***
 - ✅ Python 3.8 ou plus récent
 - ✅ Un bot Discord et un token valide
 - ✅ Un environnement virtuel Python (recommandé), il faut bien activer son environnement virtuel et choisir le même interpréteur.
@@ -56,6 +63,20 @@ CHANNEL_ID=VOTRE_IDENTIFIANT_DU_SALON_DISCORD
 3. Installe les dépendances :
    ```bash
    pip install -r requirements.txt
+   ```
+4. Application exécutable
+   ```bash
+   Le fichier exécutable se trouve dans dist/BotDiscord
+   ```
+5. Convertir les fichier en logiciel exécutable
+   ```bash
+   pip install pyinstaller
+   pyinstaller --onefile --name BotDiscord --add-data ".env:." main.py
+   ```
+   ```bash
+   Ou si vous êtes sous Windows, il y a le logiciel auto-py-to-exe, disponible ici : https://pypi.org/project/auto-py-to-exe/
+   ou en ligne de commande :
+   pip install auto-py-to-exe
    ```
 
 ## Affichage des images
