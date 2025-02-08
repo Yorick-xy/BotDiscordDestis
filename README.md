@@ -8,15 +8,15 @@ Un bot Discord conçu pour gérer et afficher des informations sur les CVE (Comm
 - **Commandes personnalisées** : Ajoute la possibilité d'étendre les fonctionnalités avec de nouvelles commandes.
 - **Gestion des variables d'environnement** : Utilisation de `python-dotenv` pour la gestion des clés API et autres informations sensibles.
 - **Interface utilisateur** : Utilisation de `discord.py` pour l'affichage des informations dans Discord avec des messages enrichis (embeds).
-- ***Voici une liste des commandes disponibles :***
-    🏓 !ping - Teste la latence du bot
-    📊 !status - Affiche le statut du bot
-    ⏰ !reminder [temps en minutes] [message] - Définit un rappel
-    🔥 !vuln - Affiche les dernières vulnérabilités
-    🎭 !ajouter_role [membre] [role] - Ajoute un rôle à un membre
-    🕒 !time - Affiche l'heure actuelle
-    🔐 !news - Affiche les dernières actualités en cybersécurité
-    🤡 !blague - Le bot vous raconte une blague !
+- ***Voici une liste des commandes disponibles :*** :
+    - 🏓 !ping - Teste la latence du bot
+    - 📊 !status - Affiche le statut du bot
+    - ⏰ !reminder [temps en minutes] [message] - Définit un rappel
+    - 🔥 !vuln - Affiche les dernières vulnérabilités
+    - 🎭 !ajouter_role [membre] [role] - Ajoute un rôle à un membre
+    - 🕒 !time - Affiche l'heure actuelle
+    - 🔐 !news - Affiche les dernières actualités en cybersécurité
+    - 🤡 !blague - Le bot vous raconte une blague !
 
 ## Prérequis
 
@@ -35,3 +35,4 @@ Un bot Discord conçu pour gérer et afficher des informations sur les CVE (Comm
 ```bash
 git clone https://github.com/Yorick-xy/BotDiscordDestis.git
 # BotDiscordDestis
+# BotDiscord
