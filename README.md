@@ -30,7 +30,7 @@ Un bot Discord conçu pour gérer et afficher des informations sur les CVE (Comm
 - ✅ Créer une application bot sur **[Discord Developer Portal](https://discord.com/developers/applications)**
   - Générer le **TOKEN** dans l'onglet **Bot**
 - ✅ Récupérer l'ID du salon Discord :
-  - Clic droit sur le salon → **"Copier l'identifiant"**
+  - Clic droit sur le salon → **"Copier l'identifiant du salon"**
 - ✅ Ajouter le **TOKEN** et **CHANNEL_ID** dans `.env`
 
 ## Configuration du fichier .env
@@ -61,12 +61,12 @@ CHANNEL_ID=VOTRE_IDENTIFIANT_DU_SALON_DISCORD
 
 ### Aperçu des actualités en cybersécurité
 
-![News](https://raw.githubusercontent.com/Yorick-xy/BotDiscordDestis/main/img/news.png)
+![News](img/news.png)
 
 ### Aperçu des CVE
 
-![Texte alternatif](https://raw.githubusercontent.com/Yorick-xy/BotDiscordDestis/main/img/cve.png)
+![News](img/cve.png)
 
 ### Exemple de blague affichée par le bot
 
-![Texte alternatif](https://raw.githubusercontent.com/Yorick-xy/BotDiscordDestis/main/img/joke.png)
+![News](img/joke.png)
